@@ -9,7 +9,7 @@ env:
   AWS_REGION: ap-southeast-2
   ECR_REGISTRY: 950177940921.dkr.ecr.ap-southeast-2.amazonaws.com
   ECR_REPOSITORY: idea-support-server3
-# 주석2
+# 주석3
 jobs:
   build_and_push:
     name: Build and Push Docker Image
