@@ -13,7 +13,7 @@ env:
   ECR_REGISTRY: 950177940921.dkr.ecr.ap-southeast-2.amazonaws.com
   ECR_REPOSITORY: idea-support-server3
 
-jobs:
+jobs: 
   test:
     name: Lint and Test
     runs-on: ubuntu-latest
